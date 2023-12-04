@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel</title>
+    <link rel="stylesheet" href="painel.css">
+</head>
+<body>
+    <script src="painel.js"></script>
+
+    <table class="ListaTitulo" style="width:100%" id="corTextoTabela">
+        <tr>
+          <th>Ambiente</th>
+          <th>Análise</th>
+        </tr>
+        <tr class="ListaDescricao" id="Painel" style="height: 200px;">
+            <td id="Ambiente"></td>
+            <td id="Analise"></td>
+        </tr>
+      </table>
+      <input class="Input" type="text" placeholder="Enter text">
+      <button onclick="getInfo()" class="botaoBuscar">Buscar Dados</button>
+</body>
+</html>
