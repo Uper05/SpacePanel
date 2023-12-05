@@ -19,17 +19,19 @@ table, th, td {
     border-collapse: collapse;
   }
 .ListaTitulo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Oxanium', sans-serif;
     font-size: larger;
+    text-align: center;
 }
 .ListaDescricao{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Oxanium', sans-serif;
     font-size: large;
 }
 .Input{
-background-color: black;
-color: white;
-text-align: center;
-text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Oxanium', sans-serif;
+    text-decoration: none;
 }
