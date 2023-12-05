@@ -27,6 +27,7 @@ table, th, td {
     text-align: center;
     font-family:'Oxanium', sans-serif;
     font-size: large;
+    height: 200px;
 }
 .Input{
     background-color: black;
@@ -34,4 +35,18 @@ table, th, td {
     text-align: center;
     font-family:'Oxanium', sans-serif;
     text-decoration: none;
+}
+.ListaImagem{
+    min-height: 300px
+}
+.ListaImagem img{
+    padding: 10px;
+}
+.TextoIntro{
+    font-family:'Oxanium', sans-serif;
+    font-size: large;
+    color:crimson ;
+}
+.TextoIntro span{
+    font-weight: bolder;
 }
