@@ -11,11 +11,11 @@ function getInfo(){
     }
     else if(result == 'marte'){
         cell1.innerHTML = "O planeta vermelho, o primeiro a ser colonizado pela Civilização Humana, governado pela potência Estado Unidense, possui diversas instalações com BioEsferas para pontos de troca e residência, porém a função mais importante do planeta é a geração de Energia Solar, por conta da falta de uma Atmosfera, sendo a 3° matriz mais energética do sistema solar";
-        cell2.innerHTML = "Aproximadamente 28.2 Bilhões de Humanos";
+        cell2.innerHTML = "Aproximadamente 38.2 Bilhões de Habitantes, possuindo algumas espécies locais";
         cell3.innerHTML = "O Planeta possui uma temperatura média de -12°Celcius durante o Verão e -82°Celcius no Inverno, sendo majoritariamente frio";
     }
     else if(result == 'jupiter'){
-        cell1.innerHTML = "O maior planeta do sistema solar, utilizado pela Prowler's Interstellar como uma matriz para gerar energia apartir da grande liberação de energia proveniente de sua estrutura gasosa, estando em 1° lugar entre a geração de energia do Sistema Solar ";
+        cell1.innerHTML = "O maior planeta do sistema solar, utilizado pela Prowler's Interstellar como uma matriz para gerar eletricidade apartir da grande liberação de energia proveniente de sua estrutura gasosa, estando em 1° lugar entre a geração de energia do Sistema Solar ";
         cell2.innerHTML = "Inabitado";
         cell3.innerHTML = "Temperaturas Escaldantes impossibilitando qualquer forma de vida habita-lo";
     }
@@ -25,11 +25,16 @@ function getInfo(){
         cell3.innerHTML = "Sua estrutura gasosa é aquecida até os 15.000°Celcius, impossibilitando a vida";
     }
     else if(result == 'urano'){
+        cell1.innerHTML = "Dominado pelo regime Russo, Urano possui um longo sistema subterrânio de cidades, buscando coletar os recursos naturais do planeta enquanto sobrevivem os invernos interminaveis, o núcleo do planeta foi reconstruído para gerar calor o suficiente para os habitantes.";
+        cell2.innerHTML = "Aproximadamente 8.9 Bilhões de Habitantes, possuindo espécies locais majoritariamente hostís";
+        cell3.innerHTML = "O planeta mais frio do Sistema Solar, possuindo temperaturas de -228°Celcius, sendo um deserto de gelo em toda sua extensão externa";
+    }
+    else if(result == 'netuno'){
         cell1.innerHTML = "";
         cell2.innerHTML = "";
         cell3.innerHTML = "";
     }
-    else if(result == 'netuno'){
+    else if(result == 'plutao'){
         cell1.innerHTML = "";
         cell2.innerHTML = "";
         cell3.innerHTML = "";
