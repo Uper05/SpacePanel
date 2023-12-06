@@ -11,7 +11,7 @@ function getInfo(){
     }
     else if(result == 'marte'){
         cell1.innerHTML = "O planeta vermelho, o primeiro a ser colonizado pela Civilização Humana, governado pela potência Estado Unidense, possui diversas instalações com BioEsferas para pontos de troca e residência, porém a função mais importante do planeta é a geração de Energia Solar, por conta da falta de uma Atmosfera, sendo a 3° matriz mais energética do sistema solar";
-        cell2.innerHTML = "Aproximadamente 38.2 Bilhões de Habitantes, possuindo algumas espécies locais";
+        cell2.innerHTML = "Aproximadamente 28.2 Bilhões de Habitantes, possuindo algumas espécies locais";
         cell3.innerHTML = "O Planeta possui uma temperatura média de -12°Celcius durante o Verão e -82°Celcius no Inverno, sendo majoritariamente frio";
     }
     else if(result == 'jupiter'){
@@ -30,14 +30,14 @@ function getInfo(){
         cell3.innerHTML = "O planeta mais frio do Sistema Solar, possuindo temperaturas de -228°Celcius, sendo um deserto de gelo em toda sua extensão externa";
     }
     else if(result == 'netuno'){
-        cell1.innerHTML = "";
-        cell2.innerHTML = "";
-        cell3.innerHTML = "";
+        cell1.innerHTML = "Utilizado pelo Império Chinês pra experimentos, Netuno é um dos Planetas com uma alta composição de água, utilizando uma Película Atmosférica, a China conseguiu concentrar uma alta quantidade de energia solar e esquentar o planeta, tornando Netuno em um grande planeta mar, possuindo diversas bases subaquáticas e naves-embarcações.";
+        cell2.innerHTML = "Aproximadamente 39.1 Bilhões de Habitantes, possuindo diversas espécies locais áquaticas";
+        cell3.innerHTML = "Por conta da Película Atmosférica, Netuno não anoitece, e possui uma temperatura constante de 28°Celcius";
     }
     else if(result == 'plutao'){
-        cell1.innerHTML = "";
-        cell2.innerHTML = "";
-        cell3.innerHTML = "";
+        cell1.innerHTML = "O governo Somálio se apropriou de Plutão, utilizando sua trajetória completamente aleatória para transformar o planeta anão em uma Enorme nave de Batalha, possuindo em seu interior diversas moradias e postos de combate.";
+        cell2.innerHTML = "Aproximadamente 17 Bilhões de Habitantes";
+        cell3.innerHTML = "O clima artificial mantém a nave em uma temperatura de 30°Celcius";
     }
     else{ 
         cell1.innerHTML = "ERROR:DATANOTFOUND";
