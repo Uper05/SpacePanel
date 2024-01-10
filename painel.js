@@ -14,7 +14,7 @@ function getInfo(){
         cell2.innerHTML = "Aproximadamente 28.2 Bilhões de Habitantes, possuindo algumas espécies locais";
         cell3.innerHTML = "O Planeta possui uma temperatura média de -12°Celcius durante o Verão e -82°Celcius no Inverno, sendo majoritariamente frio";
     }
-    else if(result == 'jupiter'){
+    else if(result == 'jupiter' || result == 'júpiter'){
         cell1.innerHTML = "O maior planeta do sistema solar, utilizado pela Prowler's Interstellar como uma matriz para gerar eletricidade apartir da grande liberação de energia proveniente de sua estrutura gasosa, estando em 1° lugar entre a geração de energia do Sistema Solar ";
         cell2.innerHTML = "Inabitado";
         cell3.innerHTML = "Temperaturas Escaldantes impossibilitando qualquer forma de vida habita-lo";
@@ -38,6 +38,11 @@ function getInfo(){
         cell1.innerHTML = "O governo Somálio se apropriou de Plutão, utilizando sua trajetória completamente aleatória para transformar o planeta anão em uma Enorme nave de Batalha, possuindo em seu interior diversas moradias e postos de combate.";
         cell2.innerHTML = "Aproximadamente 17 Bilhões de Habitantes";
         cell3.innerHTML = "O clima artificial mantém a nave em uma temperatura de 30°Celcius";
+    }
+    else if(result == ''){
+        cell1.innerHTML = "";
+        cell2.innerHTML = "";
+        cell3.innerHTML = "";
     }
     else{ 
         cell1.innerHTML = "ERROR:DATANOTFOUND";
